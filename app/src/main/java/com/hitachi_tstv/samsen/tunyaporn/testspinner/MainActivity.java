@@ -15,12 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Set Data
-        array_spinner = new String[5];
+        array_spinner = new String[6];
         array_spinner[0] = "Rose";
         array_spinner[1] = "Orchid";
         array_spinner[2] = "Lavender";
         array_spinner[3] = "Cosmos";
         array_spinner[4] = "Cherry Blossom";
+        array_spinner[5] = "Gypsophilla";
 
         //Bind Widget
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
